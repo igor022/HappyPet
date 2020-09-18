@@ -1,0 +1,24 @@
+{
+  "name": "happypet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch style -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igor022/HappyPet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igor022/HappyPet/issues"
+  },
+  "homepage": "https://github.com/igor022/HappyPet#readme"
+}

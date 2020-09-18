@@ -1,0 +1,35 @@
+
+
+button {
+    border: 0px;
+    border-radius: 100px;
+        
+    &.cart {
+        width: 30px;
+        height: 30px;
+    }
+
+    &.button-main {
+        padding: 8px 20px;
+        font-weight: bold;
+        color: white;
+        background-color: $button-color;
+    }
+
+    &.button-highlighted {
+        background: linear-gradient(250, 83, 83, 0.5);
+        box-shadow: 0 0 10px $button-color;
+    }
+
+    .top-block & {
+        margin-top: 25px;
+        font-size: 1.25em;
+        padding: 8px 30px;
+    }
+
+      
+    &.cost {
+        background-color: inherit;  
+    }
+
+}

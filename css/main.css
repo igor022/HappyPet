@@ -1,0 +1,70 @@
+header,
+main,
+footer {
+  width: 100%;
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.top-block {
+  margin-top: 50px;
+  width: 40%; }
+  .top-block h1 {
+    font-size: 36px; }
+
+.cart-red {
+  background-color: #F44B4B; }
+
+.cart-green {
+  background-color: #BEEDC8; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px; }
+
+.text-header {
+  font-size: 1.2em;
+  font-weight: 500; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0; }
+  header nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px; }
+  header nav a.current-page {
+    font-weight: bold;
+    text-decoration: solid;
+    text-decoration: underline; }
+
+button {
+  border: 0px;
+  border-radius: 100px; }
+  button.cart {
+    width: 30px;
+    height: 30px; }
+  button.button-main {
+    padding: 8px 20px;
+    font-weight: bold;
+    color: white;
+    background-color: #F44B4B; }
+  button.button-highlighted {
+    background: linear-gradient(250, 83, 83, 0.5);
+    box-shadow: 0 0 10px #F44B4B; }
+  .top-block button {
+    margin-top: 25px;
+    font-size: 1.25em;
+    padding: 8px 30px; }
+  button.cost {
+    background-color: inherit; }
+
+.mini-scroll {
+  width: 30%;
+  display: flex;
+  justify-content: space-between; }
