@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header, 
+main,
+footer {
+    width: 100%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+}
+
+nav a.current-page {
+    font-weight: bold;
+    text-decoration: solid;
+}
+
+.cart {
+    width: 30px;
+    height: 30px;
+    border: 0px;
+    border-radius: 100%;
+}
+
+.cart-red {
+    background-color: #F44B4B;
+}
+
+button.cost {
+    background-color: inherit;
+    
+}
