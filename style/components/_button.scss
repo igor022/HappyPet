@@ -3,7 +3,8 @@
 button {
     border: 0px;
     border-radius: 100px;
-        
+    font-family: $font-stack;
+
     &.cart {
         width: 30px;
         height: 30px;
@@ -21,26 +22,40 @@ button {
     }
 
     &.button-main {
+        
         padding: 8px 20px;
-        font-weight: bold;
         color: white;
         background-color: $button-color;
     }
 
+    
     &.button-highlighted {
         background: linear-gradient(250, 83, 83, 0.5);
         box-shadow: 0 0 10px $button-color;
     }
-
+    
     .top-block & {
         margin-top: 25px;
         font-size: 1.25em;
         padding: 8px 30px;
     }
 
-      
+    
     &.cost {
         background-color: inherit;  
     }
-
+    
+    &.category {
+        padding: 7px 20px;
+        margin: 0 5px 0 0;
+        background-color: white;
+        border: 1px solid black;
+    }
+    
+    &.button-pink {
+        background-color: #FA5353;
+        color: white;
+        font-weight: bold;
+        border: 0;
+    }
 }

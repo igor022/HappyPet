@@ -44,11 +44,11 @@ section {
   .advantages .advantage-img {
     margin-right: 20px;
     border-radius: 100%;
-    min-width: 70px;
-    height: 70px;
+    min-width: 60px;
+    height: 60px;
     display: flex; }
     .advantages .advantage-img img {
-      width: 50%;
+      width: 55%;
       display: block;
       margin: 0 auto;
       align-self: center; }
@@ -113,7 +113,8 @@ header {
 
 button {
   border: 0px;
-  border-radius: 100px; }
+  border-radius: 100px;
+  font-family: "Montserrat", sans-serif; }
   button.cart {
     width: 30px;
     height: 30px; }
@@ -123,7 +124,6 @@ button {
     background: center/50% no-repeat url("/img/cart.png"), #BEEDC8; }
   button.button-main {
     padding: 8px 20px;
-    font-weight: bold;
     color: white;
     background-color: #F44B4B; }
   button.button-highlighted {
@@ -135,6 +135,16 @@ button {
     padding: 8px 30px; }
   button.cost {
     background-color: inherit; }
+  button.category {
+    padding: 7px 20px;
+    margin: 0 5px 0 0;
+    background-color: white;
+    border: 1px solid black; }
+  button.button-pink {
+    background-color: #FA5353;
+    color: white;
+    font-weight: bold;
+    border: 0; }
 
 .mini-scroll {
   margin-top: 50px;
