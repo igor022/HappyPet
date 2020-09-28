@@ -6,7 +6,7 @@ body::before {
   min-height: 600px;
   width: 100%;
   z-index: -1;
-  background: center/100% 100% no-repeat url("/img/mainbackground.png"); }
+  background: center/100% 100% no-repeat url("/img/background/mainbackground.png"); }
 
 body {
   width: 100%; }
@@ -49,7 +49,6 @@ section {
     display: flex; }
     .advantages .advantage-img img {
       width: 55%;
-      display: block;
       margin: 0 auto;
       align-self: center; }
     .advantages .advantage-img.adv-green {
@@ -145,6 +144,45 @@ button {
     color: white;
     font-weight: bold;
     border: 0; }
+
+.items {
+  margin-top: 30px; }
+
+.items-row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap; }
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 30%;
+  padding: 30px;
+  margin: 0 10px;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 0 2px 15px 0 rgba(255, 180, 68, 0.1); }
+  .item .item-header {
+    display: flex;
+    align-items: center; }
+    .item .item-header .month-count {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 25px;
+      height: 25px;
+      margin-right: 5px;
+      border-radius: 100%;
+      background-color: #c3edff; }
+  .item .item-img {
+    width: 100%; }
+  .item .cost-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .item .cost-block p {
+      margin-left: 25%; }
 
 .mini-scroll {
   margin-top: 50px;

@@ -1,0 +1,57 @@
+.items {
+    margin-top: 30px;
+}
+
+.items-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 30%;
+    padding: 30px;
+    margin: 0 10px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 2px 15px 0 rgba(255, 180, 68, 0.1);
+
+    
+    .item-header {
+        display: flex;
+        align-items: center;
+        
+        .month-count {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 25px;
+            height: 25px;
+            margin-right: 5px;
+            border-radius: 100%;
+            background-color: rgba(195,237,255, 1);
+        }
+    }
+
+    .item-img {
+        width: 100%;
+        
+    }
+
+    .item-img img {
+      
+    }
+
+    .cost-block {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            margin-left: 25%;
+        }
+    }
+}
