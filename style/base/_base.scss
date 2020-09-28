@@ -36,3 +36,51 @@ footer {
 .red {
     color: red;
 }
+
+section {
+    margin: 70px 0;
+}
+
+.advantages {
+    display: flex;
+
+    .advantage {
+        display: flex;
+        align-items: center;
+        padding: 0 10px;
+        width: 33%;
+
+        p {
+            margin: 5px 0;
+        }
+    }
+
+    .advantage-img {
+        margin-right: 20px;
+        border-radius: 100%;
+        min-width: 70px;
+        height: 70px;
+        display: flex;
+
+        img {
+            width: 50%;
+            display: block;
+            margin: 0 auto;
+            align-self: center;
+        }
+
+        &.adv-green {
+            background-color: rgba(22, 191, 59, 0.28);
+        }
+
+        &.adv-blue {
+            background-color: rgba(195,237,255, 1);
+            ;
+        }
+
+        &.adv-red {
+            background-color: rgba(254,155,147, 0.49);
+        }
+    }
+
+}
