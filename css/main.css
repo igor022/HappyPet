@@ -92,6 +92,22 @@ form input,
 form textarea {
   font-family: "Montserrat", sans-serif; }
 
+.about {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px; }
+  .about .info-people {
+    display: flex; }
+    .about .info-people .people {
+      text-align: center;
+      margin: 0 5px; }
+      .about .info-people .people .people-img {
+        width: 110px; }
+        .about .info-people .people .people-img img {
+          width: 100%; }
+      .about .info-people .people .people-name {
+        font-weight: bold; }
+
 .feedback-form {
   border: 1px solid #FFAD49;
   border-radius: 3px;

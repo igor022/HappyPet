@@ -1,0 +1,25 @@
+.about {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;;
+    
+
+    .info-people {
+        display: flex;
+        .people {
+            text-align: center;
+            margin: 0 5px;
+            .people-img {
+                width: 110px;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .people-name {
+                font-weight: bold;
+            }
+        }
+    }
+}
