@@ -58,6 +58,12 @@ section {
     .advantages .advantage-img.adv-red {
       background-color: rgba(254, 155, 147, 0.49); }
 
+.watch-next {
+  display: block;
+  font-weight: bold;
+  text-decoration: none;
+  color: #CD3E3E; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -72,6 +78,12 @@ body {
 
 .text-promo {
   font-size: 1.2em; }
+
+.text-left {
+  text-align: left; }
+
+.text-right {
+  text-align: right; }
 
 header {
   display: flex;
@@ -90,7 +102,7 @@ header {
     border: 0;
     width: 50px;
     height: 50px;
-    background: center/30% no-repeat url("/img/logo/Vector.png"), 45% 200%/90% no-repeat url("/img/logo/Rectangle 2.png"); }
+    background: center/30% no-repeat url("/img/logo/Vector.png"), 25% 210%/90% no-repeat url("/img/logo/Rectangle 2.png"); }
   header nav a {
     text-decoration: none;
     color: black;
@@ -144,6 +156,22 @@ button {
     color: white;
     font-weight: bold;
     border: 0; }
+
+.photo-gallery {
+  margin: 10px 0; }
+  .photo-gallery .block {
+    display: flex;
+    justify-content: space-between; }
+    .photo-gallery .block.horizontal {
+      flex-direction: row; }
+    .photo-gallery .block.vertical {
+      flex-direction: column; }
+  .photo-gallery .photo {
+    margin: 3px;
+    display: block; }
+    .photo-gallery .photo img {
+      width: 100%;
+      height: 100%; }
 
 .items::before {
   content: '';
