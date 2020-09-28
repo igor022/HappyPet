@@ -6,7 +6,7 @@ body::before {
   min-height: 600px;
   width: 100%;
   z-index: -1;
-  background: center/100% 100% no-repeat url("../../img/background/mainbackground.png"); }
+  background: center/100% 100% no-repeat url("../img/background/mainbackground.png"); }
 
 body {
   width: 100%; }
@@ -64,7 +64,7 @@ section {
   color: #CD3E3E; }
 
 .dog {
-  background: 50% 0/contain no-repeat url("../../img/Mask Group.png");
+  background: 50% 0/contain no-repeat url("../img/Mask Group.png");
   position: absolute;
   height: 500px;
   top: 100px;
@@ -261,7 +261,7 @@ button {
   width: 100%;
   height: 1000px;
   z-index: -1;
-  background: center/100% 100% no-repeat url("/img/background/1.png"); }
+  background: center/100% 100% no-repeat url("../img/background/1.png"); }
 
 .items {
   margin-top: 30px; }
