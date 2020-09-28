@@ -1,0 +1,44 @@
+.feedback-form {
+    border: 1px solid $form-color;
+    border-radius: 3px;
+    padding: 25px 40px;
+    width: 400px;
+    margin: 20px auto 0 auto;
+
+    fieldset {
+        padding: 0;
+        width: 100%;
+        margin-bottom: 30px;
+        border: 1px solid $form-color;
+        border-radius: 6px;
+        box-sizing: border-box;
+
+        legend {
+            margin-left: 10%;
+            color: $form-color;
+            padding: 0 10px;
+            font-size: 0.8em;
+        }
+    }
+
+    input, 
+    textarea {
+        outline: none;
+        width: 100%;
+        box-sizing: border-box;
+        border: 0;
+        padding: 5px 5px 10px 5px;
+    }
+
+    input {
+        display: block;
+        
+    }
+
+    textarea {
+        margin: 0;
+        resize: none;
+        height: 80px;
+    }
+
+}

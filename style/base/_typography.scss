@@ -21,3 +21,10 @@ body {
 .text-right {
     text-align: right;
 }
+
+form {
+    input,
+    textarea {
+        font-family: $font-stack;
+    }
+}

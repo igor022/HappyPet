@@ -58,4 +58,12 @@ button {
         font-weight: bold;
         border: 0;
     }
+
+    form & {
+        display: block;
+        margin: 0 auto;
+        background-color: #FA5353;
+        color: white;
+        padding: 5px 25px;
+    }
 }

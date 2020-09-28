@@ -251,10 +251,19 @@
             </section>
             <section>
                 <h2>Есть вопросы? Задавайте!</h2>
-                <form action="#" method="post">
-                    <input type="text" name="name">
-                    <input type="email" name="email">
-                    <textarea name="message"></textarea>
+                <form class="feedback-form" action="#" method="post">
+                    <fieldset>
+                        <legend>Имя</legend>
+                        <input type="text" name="name" autocomplete="off">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Почта</legend>
+                        <input type="email" name="email">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Сообщение</legend>
+                        <textarea name="message"></textarea>
+                    </fieldset>
                     <button type="submit">Отправить</button>
                 </form>
             </section>
