@@ -322,7 +322,7 @@ button {
   border: 0;
   width: 50px;
   height: 50px;
-  background: center/30% no-repeat url("/img/logo/Vector.png"), 25% 210%/90% no-repeat url("/img/logo/Rectangle 2.png"); }
+  background: center/30% no-repeat url("../img/logo/Vector.png"), 25% 210%/90% no-repeat url("../img/logo/Rectangle 2.png"); }
 
 @media only screen and (max-width: 1050px) {
   .dog {
