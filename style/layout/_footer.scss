@@ -1,0 +1,44 @@
+footer {
+    background: linear-gradient(120deg, rgba(255, 141, 6, 0.57), rgba(246, 156, 23, 1));
+    padding: 50px 0 15px 0;
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+
+        .footer-about {
+
+            .social-logos {
+                display: flex;
+
+                a {
+                    margin: 0 5px;
+                }
+            }
+        }
+
+        .footer-contacts {
+            display: flex;
+            flex-direction: column;
+
+            .contact-icon {
+                margin-bottom: 10px;
+            }
+        }
+
+        .footer-help .copyright {
+            margin-top: 70px;
+        }
+    }
+
+    .footer-header {
+        font-weight: bold;
+    }
+
+    a {
+        padding: 8px 0;
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
+}
