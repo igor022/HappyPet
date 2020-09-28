@@ -63,6 +63,12 @@ section {
   text-decoration: none;
   color: #CD3E3E; }
 
+.dog {
+  position: absolute;
+  height: 500px;
+  top: 100px;
+  left: 50%; }
+
 body {
   margin: 0;
   padding: 0;
@@ -217,7 +223,8 @@ button {
     padding: 7px 20px;
     margin: 0 5px 0 0;
     background-color: white;
-    border: 1px solid black; }
+    border: 1px solid black;
+    outline: none; }
   button.button-pink {
     background-color: #FA5353;
     color: white;
