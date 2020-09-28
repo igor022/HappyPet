@@ -7,10 +7,12 @@
     justify-content: flex-start;
     align-items: center;
 
+
     .mini-card {
         background-color: white;
-        width: 140px;
-        height: 160px;
+        align-self: stretch; 
+       
+        
         border-radius: 40px;
         padding: 0 10px;
         margin: 0 10px;

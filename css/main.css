@@ -325,6 +325,13 @@ button {
   background: center/30% no-repeat url("../img/logo/Vector.png"), 25% 210%/90% no-repeat url("../img/logo/Rectangle 2.png"); }
 
 @media only screen and (max-width: 1050px) {
+  header,
+  main,
+  .footer-content {
+    padding: 0 50px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto; }
   .dog {
     display: none; }
   header {
@@ -335,9 +342,9 @@ button {
     header .buy {
       visibility: hidden; }
   main section {
-    margin: 20px 0; }
+    margin: 40px 0; }
   main .top-block {
-    margin: 50px 0 0 0;
+    margin: 50px 0 20px 0;
     width: 100%; }
     main .top-block h1 {
       margin: 0px;
@@ -347,14 +354,20 @@ button {
       margin: 0 auto; }
   main .mini-scroll {
     margin-top: 50px;
+    margin-bottom: 100px;
     justify-content: center;
     position: static; }
     main .mini-scroll .mini-card {
-      width: 100px;
-      height: 100px;
+      padding: 10px;
+      flex-basis: 0;
+      flex-grow: 1;
       border-radius: 30px; }
       main .mini-scroll .mini-card .text-header {
         font-size: 0.7em; }
+      main .mini-scroll .mini-card .mini-card-img {
+        width: 100%; }
+        main .mini-scroll .mini-card .mini-card-img img {
+          width: 100%; }
   main .advantages {
     flex-direction: column; }
     main .advantages .advantage {
@@ -422,6 +435,73 @@ button {
       footer .footer-content > div {
         margin: 0 10px; } }
 
+@media only screen and (max-width: 420px) {
+  main section {
+    margin: 60px 0; }
+  main .top-block {
+    margin: 50px 0 0 0;
+    width: 100%; }
+    main .top-block h1 {
+      margin: 0px;
+      font-size: 1.6em; }
+    main .top-block .button-main {
+      display: block;
+      margin: 0 auto; }
+  main .mini-scroll {
+    margin-top: 50px;
+    position: static; }
+    main .mini-scroll .mini-card {
+      background-color: white;
+      flex-basis: 0;
+      flex-grow: 1;
+      border-radius: 30px;
+      padding: 0 10px;
+      margin: 0 3px;
+      box-shadow: 0 2px 15px 0 rgba(255, 180, 68, 0.1); }
+      main .mini-scroll .mini-card p {
+        margin: 10px 0; }
+      main .mini-scroll .mini-card .mini-card-img {
+        width: 100%; }
+        main .mini-scroll .mini-card .mini-card-img img {
+          width: 100%; }
+    main .mini-scroll button {
+      background-color: white;
+      font-size: 0.5em;
+      margin: 0;
+      min-width: 20px;
+      height: 20px;
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2); }
+  main .advantages {
+    font-size: 0.8em; }
+  .feedback-form {
+    padding: 15px 10px; }
+  .about {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-bottom: 10px; }
+    .about .info-people {
+      display: flex;
+      margin: 0 auto; }
+      .about .info-people .people {
+        font-size: 0.6em;
+        text-align: center;
+        margin: 0 5px; }
+        .about .info-people .people .people-img {
+          width: 40px; }
+          .about .info-people .people .people-img img {
+            width: 100%; }
+        .about .info-people .people .people-name {
+          font-weight: bold; }
+  footer {
+    font-size: 1em;
+    padding-top: 10px; }
+    footer .footer-content {
+      flex-direction: column;
+      padding: 0 15px; }
+      footer .footer-content > div {
+        margin: 0 10px; } }
+
 .mini-scroll {
   margin-top: 50px;
   position: relative;
@@ -431,8 +511,7 @@ button {
   align-items: center; }
   .mini-scroll .mini-card {
     background-color: white;
-    width: 140px;
-    height: 160px;
+    align-self: stretch;
     border-radius: 40px;
     padding: 0 10px;
     margin: 0 10px;
