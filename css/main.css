@@ -15,7 +15,6 @@ header,
 main,
 footer {
   padding: 0 50px;
-  width: 100%;
   max-width: 960px;
   margin-left: auto;
   margin-right: auto; }
@@ -66,7 +65,11 @@ section {
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
 
 body {
   font-family: "Montserrat", sans-serif;
@@ -229,6 +232,7 @@ button {
 
 .items-row {
   display: flex;
+  justify-content: center;
   flex-wrap: nowrap;
   margin-bottom: 20px; }
 
@@ -236,7 +240,7 @@ button {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 25%;
+  width: 30%;
   padding: 15px 30px;
   margin: 0 10px;
   background-color: white;
@@ -258,6 +262,7 @@ button {
     width: 100%;
     justify-self: center; }
   .item .item-img img {
+    width: 100%;
     display: block;
     margin: 0 auto; }
   .item .cost-block {
@@ -276,7 +281,7 @@ button {
   align-items: center; }
   .mini-scroll .mini-card {
     background-color: white;
-    width: 110px;
+    width: 140px;
     height: 160px;
     border-radius: 40px;
     padding: 0 10px;
