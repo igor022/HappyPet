@@ -1,7 +1,8 @@
 
 .mini-scroll {
     margin-top: 50px;
-    
+    position: relative;
+    left: -40px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -35,5 +36,6 @@
         margin: 0;
         min-width: 30px;
         height: 30px;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
     }
 } 
