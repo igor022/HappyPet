@@ -1,7 +1,31 @@
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px 0;
+
+    .logo {
+        a {
+            color: black;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            min-width: 130px;
+        }
+        
+        a span {
+            font-weight: bold;
+        }
+
+        .logo-img {
+            border: 0;
+            width: 50px;
+            height: 50px;
+            background: center / 30% no-repeat url('/img/logo/Vector.png'), 
+                        45% 200% / 90% no-repeat url('/img/logo/Rectangle\ 2.png');
+                        
+        }
+    }
 
     nav {
         a {
@@ -16,5 +40,21 @@ header {
             text-decoration: underline;
         }
 
+    }
+
+    .buy {
+        display: flex;
+        align-items: center;
+
+        .cost {
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    .arrow-cost {
+        width: 15px;
+        height: 15px;
+        background: 80% 80% / 80% no-repeat url('/img/Vector\ 1.png');
     }
 }

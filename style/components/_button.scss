@@ -9,6 +9,17 @@ button {
         height: 30px;
     }
 
+
+    &.cart-red {
+        background: center / 50% no-repeat url('/img/cart.png'),
+                    $button-color;
+    }
+
+    &.cart-green {
+        background: center / 50% no-repeat url('/img/cart.png'),
+                    #BEEDC8;
+    }
+
     &.button-main {
         padding: 8px 20px;
         font-weight: bold;
