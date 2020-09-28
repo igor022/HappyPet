@@ -3,4 +3,12 @@
     width: 30%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    button {
+        padding: 5px;
+        margin: 0;
+        min-width: 30px;
+        height: 30px;
+    }
 } 
