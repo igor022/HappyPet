@@ -29,11 +29,11 @@ header {
             display: flex;
             align-items: center;
         }
-    }
-
-    .arrow-cost {
-        width: 15px;
-        height: 15px;
-        background: 80% 80% / 80% no-repeat url('/img/Vector\ 1.png');
+    
+        .arrow-cost {
+            width: 15px;
+            height: 15px;
+            background: 80% 80% / 80% no-repeat url('/img/Vector\ 1.png');
+        }
     }
 }
