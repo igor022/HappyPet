@@ -13,12 +13,12 @@ button {
 
 
     &.cart-red {
-        background: center / 50% no-repeat url('/img/cart.png'),
+        background: center / 50% no-repeat url('../img/cart.png'),
                     $button-color;
     }
 
     &.cart-green {
-        background: center / 50% no-repeat url('/img/cart.png'),
+        background: center / 50% no-repeat url('../img/cart.png'),
                     #BEEDC8;
     }
 
